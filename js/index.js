@@ -15,12 +15,12 @@ var typed = new Typed('.typed', {
   backSpeed: 30,
 });
 
-// TILT JS CUSTIMIZATION ON HOVER
+// TILT JS | Projects Images ANIMATION ON HOVER
 $(document).ready(function () {
   $('.thumbnail').tilt({
-    maxTilt: 5,
+    maxTilt: 2,
     glare: true,
-    maxGlare: .3,
+    maxGlare: .2,
     reset: false
   })
 });

@@ -1,5 +1,5 @@
 /* Import your Components */
-
+@import url("./queries.css");
 @import url("./variables.css");
 @import url("./buttons.css");
 @import url("typography.css");

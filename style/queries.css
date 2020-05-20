@@ -116,26 +116,8 @@
 /* This is Boostrap Responsive BreakPoints */
 /* ======================================= */
 
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-/* Typography */
-
-/* Buttons.css */
-
-/* Footer.css */
-
-/* SECTIONS */
-/* Hero.css */
-
-/* About.css */
-
-/* Projects.css */
-
-/* Contact.css */
-}
-
-/* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
 /* Typography */
 
 /* Buttons.css */
@@ -170,8 +152,27 @@
 /* Contact.css */
 }
 
-/* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+  
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
 /* Typography */
 
 /* Buttons.css */
@@ -190,17 +191,22 @@
 
 
 
+
 /* Combined min-max Boostrap Breakpoints */
 /* ============================= */
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
-
+  #contact .grid-for-contact {
+    display: block !important;
+  }
 }
 
 /* Small devices (landscape phones, 576px and up) */
 @media (min-width: 576px) and (max-width: 767.98px) {
-
+  #contact .grid-for-contact {
+    display: block !important;
+  }
 }
 
 /* Medium devices (tablets, 768px and up) */
