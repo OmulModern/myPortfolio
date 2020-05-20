@@ -31,6 +31,9 @@
 
   /* SECTIONS */
   /* Hero.css */
+  #hero .hero-title {
+    font-size: 4rem;
+  }
 
   /* About.css */
 
@@ -49,7 +52,12 @@
 
   /* SECTIONS */
   /* Hero.css */
-
+  #hero .hero-title {
+    font-size: 4rem;
+  }
+  #hero .container {
+    max-width: 100% !important;
+  }
   /* About.css */
 
   /* Projects.css */
@@ -67,7 +75,13 @@
 
   /* SECTIONS */
   /* Hero.css */
+  #hero .hero-title {
+    font-size: 3rem;
+  }
 
+  #hero .hero-cta a {
+    font-size: 2rem;
+  }
   /* About.css */
 
   /* Projects.css */
@@ -102,13 +116,21 @@
 
   /* SECTIONS */
   /* Hero.css */
-
+  #hero {
+    padding: 0 1rem !important;
+  }
+  #hero .hero-title {
+    font-size: 2.3rem;
+  }
+  #hero .hero-cta a {
+    font-size: 2rem;
+  }
   /* About.css */
 
   /* Projects.css */
 
   /* Contact.css */
-  .container {
+  #about .container {
     padding-right: 25px;
     padding-left: 25px;
   }
