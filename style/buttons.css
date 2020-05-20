@@ -1,0 +1,113 @@
+/* Hero Call to Action Button */
+.cta-btn {
+  display: inline-block;
+  position: relative;
+  padding: 0.8rem var(--default-font-size);
+  font-weight: bold;
+  line-height: 1;
+  z-index: 1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.6s;
+}
+
+.cta-btn::after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 0px;
+  height: 100%;
+  left: 0;
+  bottom: 0;
+  z-index: -1;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 0.3s;
+}
+
+.hero-cta .main-button {
+  -webkit-text-fill-color: var(--white-color);
+  color: var(--white-color);
+  border: none;
+  border-radius: 2px;
+  padding: 1rem 1.8rem;
+  background: linear-gradient(
+    135deg, 
+    #C33764 0%, 
+    #1D2671 100%
+  );
+  font-size: var(--mid-font-size);
+}
+
+.hero-cta .main-button::after {
+  background-image: none;
+  border-radius: 20px;
+}
+
+.hero-cta .main-button:hover {
+  transform: translateY(-.2rem);
+  box-shadow: 0 1rem 1rem rgba(150,150,150, 0.2);
+}
+
+
+/* Projects Button Style */
+/* ===================== */
+
+.projects-btn {
+  background-image: linear-gradient(135deg, #C33764 0%, #1D2671 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+  border: 2px solid transparent;
+  border-image: linear-gradient(135deg, #C33764 0%, #1D2671 100%);
+  border-image-slice: 1;
+}
+
+.projects-btn::after {
+  background-color: var(--secondary-color);
+  border-image-slice: 1;
+  background: linear-gradient(
+    135deg, 
+    #C33764 0%, 
+    #1D2671 100%
+  );
+}
+
+.projects-btn:hover {
+  -webkit-text-fill-color: var(--white-color);
+  text-decoration: none;
+}
+
+.projects-btn:hover::after {
+  width: 100%;
+}
+
+/* Second botton inprojects */
+.text-color-main {
+  background-image: linear-gradient(135deg, #C33764 0%, #1D2671 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  color: transparent;
+}
+
+/* About and Contact Button Style */
+.cta-btn--resume {
+  color: var(--white-color);
+  border: 2px solid var(--white-color);
+}
+
+.cta-btn--resume::after {
+  background: var(--white-color);
+}
+
+.cta-btn--resume:hover {
+  color: var(--secondary-color);
+  text-decoration: none;
+}
+
+.cta-btn--resume:hover::after {
+  width: 100%;
+}
+
+/* Arrow Button */
+.up i {
+  color: #272727;
+}

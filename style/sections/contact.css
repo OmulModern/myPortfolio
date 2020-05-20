@@ -1,0 +1,34 @@
+#contact {
+   /* background-image: linear-gradient(135deg, var(--primary-color 20%), var(--secondary-color 80%)); */
+   background-color: var(--primary-color);
+	 background-image: linear-gradient(
+    135deg,
+    var(--primary-color) 20%,
+    var(--secondary-color) 80%
+  );
+	 -webkit-clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 100%, 0 100%);
+	 clip-path: polygon(0 0, 50% 2%, 100% 0, 100% 100%, 0 100%);
+	 padding: 15rem 0 10rem 0;
+	 margin-top: -10rem;
+	 margin-bottom: -1px;
+	 color: var(--white-color);
+}
+ #contact .grid-for-contact {
+	 display: grid;
+	 grid-template-columns: 50% 50%;
+}
+ #contact .grid-for-contact .contact-wrapper:first-child {
+	 padding-bottom: 2rem;
+}
+ #contact .contact-wrapper {
+	 margin-top: 3.2rem;
+	 padding: 0 2rem;
+	 backface-visibility: hidden;
+}
+ #contact .contact-wrapper__text {
+	 margin-bottom: 2.5rem;
+}
+ #contact .contact-wrapper__text, #contact .contact-wrapper a {
+	 font-size: 2.4rem;
+}
+ 

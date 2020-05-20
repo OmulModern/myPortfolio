@@ -1,0 +1,219 @@
+/* Custom Breakpoints for Responsive Design */
+/* ======================================== */
+
+/* for-phone-xs-only */
+@media (max-width: 441px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+/* for-phone-landscape-only */
+@media (max-width: 599px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+/* for-tablet-portrait-up */
+@media (min-width: 600px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+
+}
+
+/* for-tablet-landscape-up */
+@media (min-width: 900px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+
+}
+
+/* for-desktop-up */
+@media (min-width: 1200px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+
+}
+
+/* for-big-desktop-up */
+@media (min-width: 1800px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+
+/* This is Boostrap Responsive BreakPoints */
+/* ======================================= */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+/* Typography */
+
+/* Buttons.css */
+
+/* Footer.css */
+
+/* SECTIONS */
+/* Hero.css */
+
+/* About.css */
+
+/* Projects.css */
+
+/* Contact.css */
+}
+
+
+
+/* Combined min-max Boostrap Breakpoints */
+/* ============================= */
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}

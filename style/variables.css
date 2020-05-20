@@ -1,0 +1,26 @@
+/* COLORS
+linear-gradient(178deg, #C33764 45%, #1D2671 100%) */
+
+:root {
+  --primary-color: #C33764;
+  --secondary-color: #1D2671;
+  --newcolor: #8B3269;
+
+  --white-color: #fff;
+
+  --dark-grey: #333333;
+
+  --dark-blue-text: #272341; /* For Headings */
+
+  /* FONT SIZE */
+  --default-font-size: 1.6rem;
+  --big-font-size: 4rem;
+  --mid-font-size: 2.5rem;
+
+  /* Breakpoints */
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
