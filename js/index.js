@@ -15,14 +15,21 @@ var typed = new Typed('.typed', {
   backSpeed: 30,
 });
 
-// TILT JS | Projects Images ANIMATION ON HOVER
 $(document).ready(function () {
+  // TILT JS | Projects Images ANIMATION ON HOVER
   $('.thumbnail').tilt({
     maxTilt: 2,
     glare: true,
     maxGlare: .2,
     reset: false
   })
+
+  // Scroll to About Page
+  $('.js-scroll-to-about').click(function () {
+    $('html, body').animate({
+      scrollTop: $('.js-about').offset().top
+    }, 800);
+  });
 });
 
 
