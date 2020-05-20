@@ -1,3 +1,144 @@
+/* MEDIA QUERY MANAGER */
+
+/* Combined min-max-width Boostrap Breakpoints */
+/* ============================= */
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+  /* Typography */
+
+  /* Buttons.css */
+
+  /* Footer.css */
+
+  /* SECTIONS */
+  /* Hero.css */
+
+  /* About.css */
+
+  /* Projects.css */
+
+  /* Contact.css */
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Typography */
+
+  /* Buttons.css */
+
+  /* Footer.css */
+
+  /* SECTIONS */
+  /* Hero.css */
+
+  /* About.css */
+
+  /* Projects.css */
+
+  /* Contact.css */
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Typography */
+
+  /* Buttons.css */
+
+  /* Footer.css */
+
+  /* SECTIONS */
+  /* Hero.css */
+
+  /* About.css */
+
+  /* Projects.css */
+
+  /* Contact.css */
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Typography */
+
+  /* Buttons.css */
+
+  /* Footer.css */
+
+  /* SECTIONS */
+  /* Hero.css */
+
+  /* About.css */
+
+  /* Projects.css */
+
+  /* Contact.css */
+  #contact .grid-for-contact {
+    display: block !important;
+  }
+
+  #contact .grid-for-contact .contact-wrapper:first-child::after {
+    content: " ";
+    display: block;
+    border: 0;
+    width: 35rem;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+  /* Typography */
+
+  /* Buttons.css */
+
+  /* Footer.css */
+
+  /* SECTIONS */
+  /* Hero.css */
+
+  /* About.css */
+
+  /* Projects.css */
+
+  /* Contact.css */
+  .container {
+    padding-right: 25px;
+    padding-left: 25px;
+  }
+
+  #contact .grid-for-contact {
+    display: block !important;
+  }
+
+  #contact .grid-for-contact .contact-wrapper:first-child::after {
+    content: " ";
+    display: block;
+    border: 0;
+    width: 35rem;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
+    margin: 0 auto;
+    margin-top: 5rem;
+  }
+}
+
+
+
+
+
+
+
+
 /* Custom Breakpoints for Responsive Design */
 /* ======================================== */
 
@@ -117,7 +258,7 @@
 /* ======================================= */
 
 /* Large devices (desktops, less than 1200px) */
-@media (max-width: 1199.98px) {
+@media (min-width: 1199.98px) {
 /* Typography */
 
 /* Buttons.css */
@@ -135,7 +276,7 @@
 }
 
 /* Medium devices (tablets, less than 992px) */
-@media (max-width: 991.98px) {
+@media (min-width: 991.98px) {
 /* Typography */
 
 /* Buttons.css */
@@ -153,7 +294,7 @@
 }
 
 /* Small devices (landscape phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (min-width: 767.98px) {
 /* Typography */
 
 /* Buttons.css */
@@ -172,7 +313,7 @@
 }
 
 /* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
+@media (min-width: 575.98px) {
 /* Typography */
 
 /* Buttons.css */
@@ -187,72 +328,4 @@
 /* Projects.css */
 
 /* Contact.css */
-}
-
-
-
-
-/* Combined min-max Boostrap Breakpoints */
-/* ============================= */
-
-/* Extra small devices (portrait phones, less than 576px) */
-@media (max-width: 575.98px) {
-  .container {
-    padding-right: 25px;
-    padding-left: 25px;
-
-  }
-  #contact .grid-for-contact {
-    display: block !important;
-  }
-
-  #contact .grid-for-contact .contact-wrapper:first-child::after {
-    content: " ";
-    display: block;
-    border: 0;
-    width: 35rem;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
-    background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
-    background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
-    background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
-    margin: 0 auto;
-    margin-top: 5rem;
-}
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  #contact .grid-for-contact {
-    display: block !important;
-  }
-
-  #contact .grid-for-contact .contact-wrapper:first-child::after {
-    content: " ";
-    display: block;
-    border: 0;
-    width: 35rem;
-    height: 1px;
-    background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
-    background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
-    background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
-    background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
-    margin: 0 auto;
-    margin-top: 5rem;
-}
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 991.98px) {
-
-}
-
-/* Large devices (desktops, 992px and up) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
-}
-
-/* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-
 }
