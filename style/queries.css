@@ -51,6 +51,9 @@
   /* Footer.css */
 
   /* SECTIONS */
+  .section-title {
+    font-size: 4rem !important;  
+  }
   /* Hero.css */
   #hero .hero-title {
     font-size: 4rem;
@@ -74,9 +77,12 @@
   /* Footer.css */
 
   /* SECTIONS */
+  .section-title {
+    font-size: 3.5rem !important;
+  }
   /* Hero.css */
   #hero .hero-title {
-    font-size: 3rem;
+    font-size: 3rem !important;
   }
 
   #hero .hero-cta a {
@@ -115,6 +121,11 @@
   #about .about-wrapper__info-text {
     text-align: center !important;
     align-items: center;
+  }
+
+  #contact .contact-wrapper__text,
+  #contact .contact-wrapper a {
+    font-size: 2rem;
   }
   /* Buttons.css */
 
