@@ -1,6 +1,7 @@
 #projects {
 	background-color: var(--white-color);
 	color: var(--dark-blue-text);
+	margin-bottom: 5rem
 }
 
 #projects .project-wrapper {

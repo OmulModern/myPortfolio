@@ -197,9 +197,28 @@
 
 /* Extra small devices (portrait phones, less than 576px) */
 @media (max-width: 575.98px) {
+  .container {
+    padding-right: 25px;
+    padding-left: 25px;
+
+  }
   #contact .grid-for-contact {
     display: block !important;
   }
+
+  #contact .grid-for-contact .contact-wrapper:first-child::after {
+    content: " ";
+    display: block;
+    border: 0;
+    width: 35rem;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
+    margin: 0 auto;
+    margin-top: 5rem;
+}
 }
 
 /* Small devices (landscape phones, 576px and up) */
@@ -207,6 +226,20 @@
   #contact .grid-for-contact {
     display: block !important;
   }
+
+  #contact .grid-for-contact .contact-wrapper:first-child::after {
+    content: " ";
+    display: block;
+    border: 0;
+    width: 35rem;
+    height: 1px;
+    background-image: -webkit-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -moz-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -ms-linear-gradient(left, transparent, #8c8b8b, transparent);
+    background-image: -o-linear-gradient(left, transparent, #8c8b8b, transparent);
+    margin: 0 auto;
+    margin-top: 5rem;
+}
 }
 
 /* Medium devices (tablets, 768px and up) */
