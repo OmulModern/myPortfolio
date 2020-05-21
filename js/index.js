@@ -34,10 +34,11 @@ $(document).ready(function () {
 
 wow = new WOW({
   boxClass: 'wow',      // default
-  animateClass: 'animated', // default
+  animateClass: 'animate__animated', // default
   offset: 150,          // default
   mobile: true,       // default
-  live: true        // default
+  live: false,        // default
+  resetAnimation: true,
 })
 
 wow.init();
