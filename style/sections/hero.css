@@ -19,8 +19,8 @@
   /* If you want to set a background image on the hero section, uncomment these with yout custom image */
 
   background: linear-gradient(
-      rgba(0, 0, 0, 0.7), 
-      rgba(0, 0, 0, 0.7)),
+      rgba(0, 0, 0, 0.8), 
+      rgba(0, 0, 0, 0.8)),
     url("./../../img/color_burst-min.jpg");
   background-position: center;
   background-size: cover;

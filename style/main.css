@@ -74,10 +74,17 @@ section {
   list-style: none;
 }
 
+.ro-flag span {
+  margin-left: 5px;
+}
+
 .ro-flag li a {
   padding: 5px 5px 5px 0 !important;
+  text-decoration: none;
+  color: var(--white-color);
 }
 
 .ro-flag img {
   width: 25px;
+  margin-bottom: 2px;
 }
