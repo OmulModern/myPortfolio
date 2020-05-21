@@ -18,7 +18,7 @@ var typed = new Typed('.typed', {
 $(document).ready(function () {
   // TILT JS | Projects Images ANIMATION ON HOVER
   $('.thumbnail').tilt({
-    maxTilt: 2,
+    maxTilt: 2.5,
     glare: true,
     maxGlare: .2,
     reset: false
@@ -32,6 +32,7 @@ $(document).ready(function () {
   });
 });
 
+// Activate animations on scroll
 wow = new WOW({
   boxClass: 'wow',      // default
   animateClass: 'animate__animated', // default

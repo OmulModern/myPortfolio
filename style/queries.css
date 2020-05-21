@@ -80,6 +80,10 @@
   .section-title {
     font-size: 3.5rem !important;
   }
+  
+  #projects {
+    padding-bottom: 0;
+  }
   /* Hero.css */
   #hero .hero-title {
     font-size: 3rem !important;
@@ -132,6 +136,9 @@
   /* Footer.css */
 
   /* SECTIONS */
+  #projects {
+    padding-bottom: 0;
+  }
   /* Hero.css */
   #hero {
     padding: 0 1rem !important;
