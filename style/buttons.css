@@ -81,7 +81,7 @@
 
 /* Second botton inprojects */
 .text-color-main {
-  background-image: linear-gradient(135deg, #C33764 0%, #1D2671 100%);
+  background-image: linear-gradient(15deg, #C33764 50%, #1D2671 100%);
   -webkit-background-clip: text;
   background-clip: text;
   -webkit-text-fill-color: transparent;
