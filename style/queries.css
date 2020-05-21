@@ -141,11 +141,10 @@
   }
   /* Hero.css */
   .ro-flag li a {
-    padding: 5px 5px !important;
-    border-radius: 50%;
+    padding: 5px 5px 5px 0 !important;
   }
   .ro-flag img {
-    width: 20px !important;
+    width: 22px !important;
   }
 
   #hero {

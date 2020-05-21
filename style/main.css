@@ -60,11 +60,11 @@ section {
   border-radius: 50%;
 }
 
-.lang-nav li a img,
-.ro-flag img {
+.lang-nav li a img {
   width: 17px;
 }
 
+/* The ro-flag on en.index.html */
 .ro-flag {
   position: relative;
   text-align: left;
@@ -75,6 +75,9 @@ section {
 }
 
 .ro-flag li a {
-  padding: 5px 6px;
-  border-radius: 50%;
+  padding: 5px 5px 5px 0 !important;
+}
+
+.ro-flag img {
+  width: 25px;
 }
