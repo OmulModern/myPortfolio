@@ -41,19 +41,40 @@ section {
   height: 100vh;
 }
 
-#hero .lang-nav {
+/* Language Navigation */
+.lang-nav {
+  position: relative;
+  text-align: center;
+  list-style: none;
+  margin: 2rem 0 0 0;
+}
+
+.lang-nav li {
+  display: inline-block;
+  margin: 5px 5px;
+  
+}
+.lang-nav li a {
+  padding: 5px 6px;
+  background-color: #efeffe;
+  border-radius: 50%;
+}
+
+.lang-nav li a img,
+.ro-flag img {
+  width: 17px;
+}
+
+.ro-flag {
   position: relative;
   text-align: left;
+}
+
+.ro-flag li {
   list-style: none;
 }
 
-#hero .lang-nav li {
-  display: inline-block;
-}
-#hero .lang-nav li a {
-  padding: 6px 10px;
-}
-
-#hero .lang-nav li a img{
-  width: 25px;
+.ro-flag li a {
+  padding: 5px 6px;
+  border-radius: 50%;
 }

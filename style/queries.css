@@ -80,7 +80,7 @@
   .section-title {
     font-size: 3.5rem !important;
   }
-  
+
   #projects {
     padding-bottom: 0;
   }
@@ -140,6 +140,14 @@
     padding-bottom: 0;
   }
   /* Hero.css */
+  .ro-flag li a {
+    padding: 5px 5px !important;
+    border-radius: 50%;
+  }
+  .ro-flag img {
+    width: 20px !important;
+  }
+
   #hero {
     padding: 0 1rem !important;
   }
