@@ -132,6 +132,13 @@
     font-size: 2rem;
   }
   /* Buttons.css */
+  .cta-btn--resume {
+    font-size: 1.5rem;
+  }
+
+  .cta-btn--resume i {
+    font-size: 13px;
+  }
 
   /* Footer.css */
 
