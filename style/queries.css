@@ -30,6 +30,7 @@
   /* Footer.css */
 
   /* SECTIONS */
+
   /* Hero.css */
   #hero .hero-title {
     font-size: 4rem;
@@ -63,6 +64,11 @@
   }
   /* About.css */
 
+  /* About-Banner */
+  .carousel-item p {
+    font-size: 2rem;
+  }
+
   /* Projects.css */
 
   /* Contact.css */
@@ -92,7 +98,11 @@
   #hero .hero-cta a {
     font-size: 2rem;
   }
+
   /* About.css */
+  .carousel-item p {
+    font-size: 1.8rem;
+  }
 
   /* Projects.css */
 
@@ -125,6 +135,7 @@
   #about .about-wrapper__info-text {
     text-align: center !important;
     align-items: center;
+    font-size: 1.3rem;
   }
 
   #contact .contact-wrapper__text,
@@ -139,8 +150,6 @@
   .cta-btn--resume i {
     font-size: 13px;
   }
-
-  /* Footer.css */
 
   /* SECTIONS */
   #projects {
@@ -168,6 +177,11 @@
   /* Banners */
   #contact-banner {
     background-image: linear-gradient(5deg, var(--primary-color) 0%, var(--secondary-color) 100% );
+  }
+
+  /* About-Banner */
+  .carousel-item p {
+    font-size: 1.6rem;
   }
 
   /* Projects.css */
