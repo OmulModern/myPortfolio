@@ -43,16 +43,6 @@
   color: #e6e6e6;
 }
 
-.about-wrapper__info-text .tvp-refference {
-  text-decoration: none;
-  color: #ccc;
-  text-shadow: 1px 0px 15px rgba(255, 255, 255, 0.8);
-}
-
-.about-wrapper__info-text .tvp-refference:hover {
-  color: #3eda4e;
-}
-
 .about-wrapper__info-text--important {
   background: darken var(--secondary-color, 1%);
   display: inline-block;
