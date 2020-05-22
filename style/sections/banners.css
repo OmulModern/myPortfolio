@@ -10,7 +10,7 @@
 }
 
 #contact-banner {
-  margin-bottom: -1px;
+  /* margin-bottom: -1px; */
   background-image: linear-gradient( 55deg, var(--primary-color) 20%, var(--secondary-color) 100% );
 }
 
