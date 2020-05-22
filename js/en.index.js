@@ -1,6 +1,7 @@
 
-// Magnific Popup
 $(document).ready(function () {
+
+  // Magnific Popup
   $(".video").magnificPopup({
     type: "iframe",
     iframe: {
@@ -20,6 +21,21 @@ $(document).ready(function () {
 
       srcAction: 'iframe_src',
     }
+  });
+
+  // TILT JS | Projects Images ANIMATION ON HOVER
+  $('.thumbnail').tilt({
+    maxTilt: 2.5,
+    glare: true,
+    maxGlare: .2,
+    reset: false
+  });
+
+  // Scroll to About Page
+  $('.js-scroll-to-about').click(function () {
+    $('html, body').animate({
+      scrollTop: $('.js-about').offset().top
+    }, 800);
   });
 
   // LOAD TYPED JS IN HERO SECTION

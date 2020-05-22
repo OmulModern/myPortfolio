@@ -21,7 +21,7 @@ $(document).ready(function () {
     glare: true,
     maxGlare: .2,
     reset: false
-  })
+  });
 
   // Scroll to About Page
   $('.js-scroll-to-about').click(function () {
@@ -29,6 +29,14 @@ $(document).ready(function () {
       scrollTop: $('.js-about').offset().top
     }, 800);
   });
+
+  // Scroll to top
+  $('.js-scroll-to-top').click(function () {
+    $('html, body').animate({
+      scrollTop: $('#top').offset().top
+    }, 800);
+  });
+
 });
 
 // Activate animations on scroll
