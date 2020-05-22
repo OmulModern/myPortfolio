@@ -64,7 +64,7 @@ $(document).ready(function () {
   wow = new WOW({
     boxClass: 'wow',      // default
     animateClass: 'animate__animated', // default
-    offset: 150,          // default
+    offset: 100,          // default
     mobile: true,       // default
     live: false,        // default
     resetAnimation: true,
