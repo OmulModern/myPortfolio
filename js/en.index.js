@@ -38,6 +38,13 @@ $(document).ready(function () {
     }, 800);
   });
 
+  // Scroll to top
+  $('.js-scroll-to-top').click(function () {
+    $('html, body').animate({
+      scrollTop: $('#top').offset().top
+    }, 800);
+  });
+
   // LOAD TYPED JS IN HERO SECTION
   var typed = new Typed('.typed', {
     strings: ["vegan.", "web developer.", "dreamer.", "multidisciplinary.", "vizionary."],
@@ -53,5 +60,18 @@ $(document).ready(function () {
   particlesJS.load('particles-js', 'particles.json', function () {
       console.log('particles.json loaded');
   });
+
+  // Activate animations on scroll
+  wow = new WOW({
+    boxClass: 'wow',      // default
+    animateClass: 'animate__animated', // default
+    offset: 150,          // default
+    mobile: true,       // default
+    live: false,        // default
+    resetAnimation: true,
+  })
+
+  wow.init();
+
 });
 
