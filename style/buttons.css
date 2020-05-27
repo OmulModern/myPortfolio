@@ -117,3 +117,7 @@
 .up i {
   color: #272727;
 }
+
+.hidden-btn {
+  display: none;
+}
