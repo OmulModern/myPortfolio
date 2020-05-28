@@ -8,7 +8,7 @@ $(document).ready(function () {
 
   // LOAD TYPED JS IN HERO SECTION
   var typed = new Typed('.typed', {
-    strings: ["vegan.", "web developer.", "vizionar.", "visător.", "multidisciplinar.",],
+    strings: ["multidisciplinar.","vegan.", "web developer.", "vizionar.", "visător."],
     typeSpeed: 70,
     loop: true,
     startDelay: 300,
