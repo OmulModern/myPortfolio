@@ -29,6 +29,8 @@
 .about-wrapper__image .rounded {
   border-radius: 50% !important;
   padding: 0.8rem;
+  width: 150px;
+  height: auto;
 }
 
 .about-wrapper__info {

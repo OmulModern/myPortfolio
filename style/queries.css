@@ -109,8 +109,12 @@
   }
 
   /* About.css */
-  .carousel-item p {
-    font-size: 1.8rem;
+  .carousel-item h4 {
+    font-size: 2.2rem;
+  }
+
+  .separator {
+    display: none;
   }
 
   /* Projects.css */
@@ -201,8 +205,9 @@
   }
 
   /* About-Banner */
-  .carousel-item p {
-    font-size: 2.2rem;
+  .carousel-item h4 {
+    font-size: 2rem;
+    font-weight: 600;
   }
 
   /* Projects.css */
