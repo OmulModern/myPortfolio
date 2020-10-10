@@ -55,7 +55,7 @@
     "move": {
       "enable": true,
       "speed": 2.5,
-      "direction": "none",
+      "direction": "bottom",
       "random": false,
       "straight": false,
       "out_mode": "out",
